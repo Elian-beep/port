@@ -25,7 +25,7 @@ export const MainContainer = styled.main`
 export const ButtonSD = styled.button`
   background-color: ${colors.gray_medium};
   color: ${colors.gray_light};
-  font-size: 16px;
+  font-size: 1em;
   padding: 10px 16px;
   border: none;
   border-radius: 4px;
@@ -40,6 +40,14 @@ export const PSD = styled.p`
   color: ${colors.gray_dark};
 `;
 
-export const H1SD = styled.h1`
-  font-size: ;
+export const DivContainerSD = styled.div`
+  padding: 32px 24px;
 `;
+
+export const H2SD = styled.h2`
+  font-style: normal;
+    font-weight: 800;
+    font-size: 18pt;
+    color: ${colors.gray_light};
+`;
+
