@@ -19,14 +19,14 @@ export const DivContainer = styled.div`
     pointer-events: none;
     transform: translateY(50px);
 
-    transition: .5s;
+    transition: .4s;
 
     > svg {
         position: absolute;
         top: 32px;
         right: 24px;
         transform: rotate(45deg);
-        transition: .7s;
+        transition: .4s;
     }
 
     nav {
@@ -36,7 +36,7 @@ export const DivContainer = styled.div`
         flex-direction: column;
         gap: 3rem;
         transform: scale(0.7);
-        transition: .7s;
+        transition: .4s;
     }
 
     nav div{
