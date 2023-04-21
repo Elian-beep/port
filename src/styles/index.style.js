@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import { colors } from './vars.style';
+import { colors, screens } from './vars.style';
 
 export const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&family=Roboto:wght@400;500;700&display=swap');
@@ -42,6 +42,14 @@ export const PSD = styled.p`
 
 export const DivContainerSD = styled.div`
   padding: 32px 24px;
+
+  @media (min-width: ${screens.tablet}) {
+    padding: 32px;
+  }
+
+  @media (min-width: ${screens.laptop}) {
+    padding: 32px 36px;
+  }
 `;
 
 export const H2SD = styled.h2`

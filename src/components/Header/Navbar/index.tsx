@@ -1,4 +1,3 @@
-import { colors } from 'styles/vars.style';
 import { NavBar } from './Navbar.style';
 import { useNavigate } from 'react-router-dom';
 

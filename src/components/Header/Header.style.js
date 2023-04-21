@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, screens } from 'styles/vars.style'
+import { screens } from 'styles/vars.style'
 
 export const DivContent = styled.div`
     display: flex;
@@ -8,6 +8,13 @@ export const DivContent = styled.div`
 
 export const DivFlexRight = styled.div`
     text-align: right;
+
+    @media (min-width: ${screens.laptop}) {
+        text-align: left;
+        display: flex;
+        gap: 1rem;
+        flex-direction: row;
+    }
 `;
 
 export const DivMobile = styled.div`

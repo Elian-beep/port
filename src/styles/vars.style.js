@@ -11,6 +11,6 @@ export const colors = {
 
 export const screens = {
     tablet: "481px",
-    laptop: "769",
-    desktop: "1024"
+    laptop: "769px",
+    desktop: "1700px"
 }
