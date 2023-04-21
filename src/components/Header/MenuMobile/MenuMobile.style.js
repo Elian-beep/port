@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { colors } from 'styles/vars.style'
 
 export const DivContainer = styled.div`
@@ -15,10 +15,18 @@ export const DivContainer = styled.div`
     align-items: center;
     justify-content: center;
 
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(50px);
+
+    transition: .5s;
+
     > svg {
         position: absolute;
-        top: 1rem;
-        right: 1rem;
+        top: 32px;
+        right: 24px;
+        transform: rotate(45deg);
+        transition: .7s;
     }
 
     nav {
@@ -26,7 +34,9 @@ export const DivContainer = styled.div`
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
+        transform: scale(0.7);
+        transition: .7s;
     }
 
     nav div{
@@ -34,4 +44,18 @@ export const DivContainer = styled.div`
         font-size: 18pt;
         font-weight: 600;
     }
+
+    ${({ isVisible }) => isVisible && css`
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+
+        > svg {
+            transform: rotate(0deg);
+        }
+
+        nav{
+            transform: scale(1);
+        }
+    `}
 `;

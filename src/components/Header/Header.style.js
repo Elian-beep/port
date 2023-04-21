@@ -9,3 +9,8 @@ export const DivContent = styled.div`
 export const DivFlexRight = styled.div`
     text-align: right;
 `;
+
+export const DivOpenMobile = styled.div`
+    display: ${({ menuIsVisible }) => menuIsVisible ? 'none' : 'block'};
+    transition: 1s;
+`;

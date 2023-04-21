@@ -1,10 +1,15 @@
 import { DivContainerSD, H2SD } from 'styles/index.style';
-import { DivContent, DivFlexRight } from './Header.style';
-import { useState } from 'react';
-import MenuMobile from './MenuMobile';
+import { DivContent, DivFlexRight, DivOpenMobile } from './Header.style';
+import { RiMenu5Line } from 'react-icons/ri';
+import { colors } from 'styles/vars.style';
+import { useEffect, useState } from 'react';
 
-export default function Home() {
-    const [menuIsVisible, setMenuIsVisible] = useState(true);
+interface Props {
+    menuIsVisible: boolean,
+    setMenuIsVisible: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+export default function Home(props: Props) {
 
     return (
         <section>
@@ -14,7 +19,9 @@ export default function Home() {
                         <H2SD>Portifólio</H2SD>
                         <H2SD>Kihan</H2SD>
                     </DivFlexRight>
-                    <MenuMobile />
+                    <DivOpenMobile menuIsVisible={props.menuIsVisible}>
+                        <RiMenu5Line size={45} color={colors.gray_light} onClick={() => props.setMenuIsVisible(true)} className='mobile' />
+                    </DivOpenMobile>
                 </DivContent>
             </DivContainerSD>
         </section>
