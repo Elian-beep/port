@@ -12,7 +12,7 @@ export const DivFlexRight = styled.div`
     @media (min-width: ${screens.laptop}) {
         text-align: left;
         display: flex;
-        gap: 1rem;
+        gap: .5rem;
         flex-direction: row;
     }
 `;

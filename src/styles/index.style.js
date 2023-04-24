@@ -22,6 +22,32 @@ export const MainContainer = styled.main`
     flex-direction: column;
 `;
 
+export const DivContainerSD = styled.div`
+  padding: 32px 24px;
+
+  @media (min-width: ${screens.tablet}) {
+    padding: 32px;
+  }
+
+  @media (min-width: ${screens.laptop}) {
+    padding: 32px 36px;
+  }
+`;
+
+export const DivCenterVert = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const DivCenterHor = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const ButtonSD = styled.button`
   background-color: ${colors.gray_medium};
   color: ${colors.gray_light};
@@ -37,25 +63,21 @@ export const ButtonSD = styled.button`
 
 export const PSD = styled.p`
   font-size: 16px;
-  color: ${colors.gray_dark};
+  color: ${colors.gray_medium};
 `;
 
-export const DivContainerSD = styled.div`
-  padding: 32px 24px;
-
-  @media (min-width: ${screens.tablet}) {
-    padding: 32px;
-  }
-
-  @media (min-width: ${screens.laptop}) {
-    padding: 32px 36px;
-  }
-`;
 
 export const H2SD = styled.h2`
   font-style: normal;
     font-weight: 800;
     font-size: 18pt;
+    color: ${colors.gray_light};
+`;
+
+export const H1SD = styled.h1`
+  font-style: normal;
+    font-weight: 900;
+    font-size: 22pt;
     color: ${colors.gray_light};
 `;
 
