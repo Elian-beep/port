@@ -62,17 +62,12 @@ export const ButtonSD = styled.button`
 `;
 
 export const PSD = styled.p`
-  font-size: 16px;
+  font-size: 18px;
   color: ${colors.gray_medium};
+  text-align: justify;
 `;
 
 
-export const H2SD = styled.h2`
-  font-style: normal;
-    font-weight: 800;
-    font-size: 18pt;
-    color: ${colors.gray_light};
-`;
 
 export const H1SD = styled.h1`
   font-style: normal;
@@ -81,3 +76,9 @@ export const H1SD = styled.h1`
     color: ${colors.gray_light};
 `;
 
+export const H2SD = styled.h2`
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18pt;
+    color: ${colors.gray_light};
+`;
