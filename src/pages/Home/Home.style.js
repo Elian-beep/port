@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const DivContentS = styled.div`
-    padding: 16px;
+    padding: 16px 0;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -9,11 +9,14 @@ export const DivContentS = styled.div`
 
 export const ImgProfileS = styled.img`
     width: 100%;
-    height: 100%;
-    padding: 16px;
-    border-radius: 30px;
 `;
 
+export const DivInsignias = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+`;
 
 
 
