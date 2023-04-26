@@ -1,6 +1,6 @@
 import { IoMdClose } from 'react-icons/io';
 import { colors } from 'styles/vars.style';
-import { DivContainer } from './MenuMobile.style';
+import { Bar, DivContainer } from './MenuMobile.style';
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 
@@ -26,7 +26,9 @@ export default function MenuMobile(props: Props) {
             <IoMdClose size={45} color={colors.gray_light} onClick={() => props.setMenuIsVisible(false)} />
             <nav>
                 <div onClick={() => redirectPage('')} >Home</div>
+                <Bar />
                 <div onClick={() => redirectPage('projects')}>Projetos</div>
+                <Bar />
                 <div onClick={() => redirectPage('curriculum')}>Currículo</div>
             </nav>
         </DivContainer>

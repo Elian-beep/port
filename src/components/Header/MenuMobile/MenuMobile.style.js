@@ -3,7 +3,8 @@ import { colors } from 'styles/vars.style'
 
 export const DivContainer = styled.div`
     position: absolute;
-    backdrop-filter: blur(3px);
+    /* background: ${colors.gray_dark}; */
+    backdrop-filter: blur(50px);
     width: 100%;
     height: 100%;
     top: 0;
@@ -26,7 +27,7 @@ export const DivContainer = styled.div`
         top: 32px;
         right: 24px;
         transform: rotate(45deg);
-        transition: .4s;
+        transition: .7s;
     }
 
     nav {
@@ -34,9 +35,9 @@ export const DivContainer = styled.div`
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 3rem;
+        gap: 1.5rem;
         transform: scale(0.7);
-        transition: .4s;
+        transition: .7s;
     }
 
     nav div{
@@ -58,4 +59,11 @@ export const DivContainer = styled.div`
             transform: scale(1);
         }
     `}
+`;
+
+export const Bar = styled.span`
+    margin: 0;
+    border: 1px solid ${colors.white};
+    width: 150%;
+    height: 1px;
 `;

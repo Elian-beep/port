@@ -5,7 +5,7 @@ import Insignia from 'components/Insignia';
 
 export default function Home() {
     return (
-        <DivContainerSD>
+        <>
             <H1SD>Bem vindo</H1SD>
             <DivCenterVert>
                 <DivContentS>
@@ -26,7 +26,7 @@ export default function Home() {
                     </DivInsignias>
                 </DivContentS>
             </DivCenterVert>
-        </DivContainerSD>
+        </>
     );
 }
 

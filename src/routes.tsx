@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
-import { MainContainer } from './styles/index.style';
+import { DivContainerSD, MainContainer } from './styles/index.style';
 import Home from "./pages/Home";
 import MenuMobile from 'components/Header/MenuMobile';
 import Header from 'components/Header';
@@ -14,11 +14,13 @@ export default function AppRouter() {
             <Router>
                 <MenuMobile menuIsVisible={menuIsVisible} setMenuIsVisible={setMenuIsVisible} />
                 <Header setMenuIsVisible={setMenuIsVisible} menuIsVisible={menuIsVisible} />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="/curriculum" element={<Curriculum />} />
-                </Routes>
+                <DivContainerSD>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/projects" element={<Projects />} />
+                        <Route path="/curriculum" element={<Curriculum />} />
+                    </Routes>
+                </DivContainerSD>
             </Router>
         </MainContainer>
     );
