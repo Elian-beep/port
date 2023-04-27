@@ -25,7 +25,7 @@ export default function MenuMobile(props: Props) {
         <DivContainer isVisible={props.menuIsVisible}>
             <IoMdClose size={45} color={colors.gray_light} onClick={() => props.setMenuIsVisible(false)} />
             <nav>
-                <div onClick={() => redirectPage('')} >Home</div>
+                <div onClick={() => redirectPage('')} >Página Inicial</div>
                 <Bar />
                 <div onClick={() => redirectPage('projects')}>Projetos</div>
                 <Bar />

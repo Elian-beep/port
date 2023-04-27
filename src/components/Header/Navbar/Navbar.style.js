@@ -12,6 +12,8 @@ export const NavBar = styled.nav`
     
     @media (min-width: ${screens.laptop}) { 
 
+        gap: 3rem;
+
         & div{
             position: relative;
             display: inline-block;

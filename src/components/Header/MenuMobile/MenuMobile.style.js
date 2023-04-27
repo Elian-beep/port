@@ -41,7 +41,7 @@ export const DivContainer = styled.div`
     }
 
     nav div{
-        color: ${colors.gray_light};
+        color: ${colors.white};
         font-size: 18pt;
         font-weight: 600;
     }

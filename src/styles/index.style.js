@@ -30,7 +30,7 @@ export const DivContainerSD = styled.div`
   }
 
   @media (min-width: ${screens.laptop}) {
-    padding: 32px 36px;
+    padding: 32px 42px;
   }
 `;
 

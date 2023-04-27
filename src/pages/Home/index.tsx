@@ -1,32 +1,30 @@
-import { DivCenterVert, DivContainerSD, H1SD, PSD } from 'styles/index.style';
-import { DivContentS, DivInsignias, ImgProfileS } from './Home.style';
+import { DivCenterVert, H1SD, PSD } from 'styles/index.style';
+import { DivContentS, DivInsignias, DivProfileS, ImgProfileS } from './Home.style';
 import profileImage from 'assets/profile.svg';
 import Insignia from 'components/Insignia';
 
 export default function Home() {
     return (
-        <>
-            <H1SD>Bem vindo</H1SD>
-            <DivCenterVert>
-                <DivContentS>
-                    <PSD>
-                        Meu nome é Elian Batista, desenvolvo aplicações (em sua maioria, projetos web) mas sempre com
-                        aptidão e conforto em aprender e desenvolver o que for necessário para meu crescimento.
-                    </PSD>
-                    <ImgProfileS src={profileImage} />
-                    <PSD>
-                        Atuo com:
-                    </PSD>
-                    <DivInsignias>
-                        <Insignia text='⏰ Pontualidade' />
-                        <Insignia text='🤲 Humildade' />
-                        <Insignia text='🙏 Respeito' />
-                        <Insignia text='💬 Comunicação' />
-                        <Insignia text='🤝 Comprometimento' />
-                    </DivInsignias>
-                </DivContentS>
-            </DivCenterVert>
-        </>
+        <DivContentS>
+            <DivProfileS>
+                <PSD>
+                    <H1SD>Olá, bem vindo</H1SD>
+                    Meu nome é Elian Batista, desenvolvo aplicações (em sua maioria, projetos web) mas sempre com
+                    aptidão e conforto em aprender e desenvolver o que for necessário para meu crescimento.
+                </PSD>
+                <ImgProfileS src={profileImage} />
+            </DivProfileS>
+            <PSD>
+                Atuo com:
+            </PSD>
+            <DivInsignias>
+                <Insignia text='⏰ Pontualidade' />
+                <Insignia text='🤲 Humildade' />
+                <Insignia text='🙏 Respeito' />
+                <Insignia text='💬 Comunicação' />
+                <Insignia text='🤝 Comprometimento' />
+            </DivInsignias>
+        </DivContentS>
     );
 }
 
