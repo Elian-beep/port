@@ -5,10 +5,10 @@ export const DivContentS = styled.div`
     /* padding: 16px 0; */
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 2rem;
 `;
 
-export const DivProfileS = styled.div`
+export const DivRotateS = styled.div`
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -34,8 +34,11 @@ export const DivInsignias = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
+    padding-top: 16px;
 `;
 
+export const DivSkills = styled.div`
+`;
 
 
 

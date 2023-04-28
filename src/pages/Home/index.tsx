@@ -1,29 +1,40 @@
-import { DivCenterVert, H1SD, PSD } from 'styles/index.style';
-import { DivContentS, DivInsignias, DivProfileS, ImgProfileS } from './Home.style';
+import { H2SD, PSD } from 'styles/index.style';
+import { DivContentS, DivInsignias, DivRotateS, DivSkills, ImgProfileS } from './Home.style';
 import profileImage from 'assets/profile.svg';
 import Insignia from 'components/Insignia';
+import SkillsCarrousel from 'components/SkillsCarrousel';
 
 export default function Home() {
+
     return (
         <DivContentS>
-            <DivProfileS>
+            <DivRotateS>
                 <PSD>
-                    <H1SD>Olá, bem vindo</H1SD>
+                    <H2SD>Olá, bem vindo</H2SD>
                     Meu nome é Elian Batista, desenvolvo aplicações (em sua maioria, projetos web) mas sempre com
                     aptidão e conforto em aprender e desenvolver o que for necessário para meu crescimento.
+                    Acredito que a tecnologia é uma área em constante evolução, o que me encanta e me inspira a sempre
+                    buscar mais conhecimento e habilidades. Estou sempre em busca de novos desafios e de me especializar
+                    em tecnologias atuais e emergentes, a fim de contribuir para o meu crescimento profissional e pessoal, e estar preparado
+                    para as inovações tecnológicas que estão por vir.
                 </PSD>
                 <ImgProfileS src={profileImage} />
-            </DivProfileS>
+            </DivRotateS>
             <PSD>
                 Atuo com:
+                <DivInsignias>
+                    <Insignia text='🙏 Respeito' />
+                    <Insignia text='⏰ Pontualidade' />
+                    <Insignia text='🤝 Comprometimento' />
+                    <Insignia text='💬 Comunicação' />
+                    <Insignia text='🤲 Humildade' />
+                </DivInsignias>
             </PSD>
-            <DivInsignias>
-                <Insignia text='⏰ Pontualidade' />
-                <Insignia text='🤲 Humildade' />
-                <Insignia text='🙏 Respeito' />
-                <Insignia text='💬 Comunicação' />
-                <Insignia text='🤝 Comprometimento' />
-            </DivInsignias>
+
+            <DivSkills>
+                <H2SD>Skills</H2SD>
+                <SkillsCarrousel />
+            </DivSkills>
         </DivContentS>
     );
 }

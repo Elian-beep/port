@@ -1,4 +1,4 @@
-import { DivContainerSD, H2SD } from 'styles/index.style';
+import { DivContainerSD, H1SD } from 'styles/index.style';
 import { DivContent, DivFlexRight, DivMobile, DivNavbar } from './Header.style';
 import { RiMenu5Line } from 'react-icons/ri';
 import { colors } from 'styles/vars.style';
@@ -16,8 +16,8 @@ export default function Home(props: Props) {
             <DivContainerSD>
                 <DivContent>
                     <DivFlexRight>
-                        <H2SD>Portifólio</H2SD>
-                        <H2SD>Kihan</H2SD>
+                        <H1SD>Portifólio</H1SD>
+                        <H1SD>Kihan</H1SD>
                     </DivFlexRight>
                     <DivNavbar>
                         <Navbar />

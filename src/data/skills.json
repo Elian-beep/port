@@ -1,0 +1,34 @@
+[
+    {
+        "_id": 1,
+        "tecTitle": "Javascript",
+        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
+        "color": "yellow",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
+        "category": "javascript"
+    },
+    {
+        "_id": 2,
+        "tecTitle": "ReactJs",
+        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
+        "color": "blue",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
+        "category": "reactjs"
+    },
+    {
+        "_id": 3,
+        "tecTitle": "Javascript",
+        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
+        "color": "yellow",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
+        "category": "javascript"
+    },
+    {
+        "_id": 4,
+        "tecTitle": "ReactJs",
+        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
+        "color": "blue",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
+        "category": "reactjs"
+    }
+]
