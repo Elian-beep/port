@@ -15,3 +15,12 @@ export const screens = {
     laptop: "769px",
     desktop: "1700px"
 }
+
+export const sizeItemsSkill = {
+    width: {
+        mobile: 300
+    },
+    heigth: {
+        mobile: 450
+    }
+}

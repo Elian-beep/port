@@ -2,33 +2,19 @@
     {
         "_id": 1,
         "tecTitle": "Javascript",
-        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
-        "color": "yellow",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-javascript.png",
+        "color": "#ffdf00",
+        "habilitys": "Lógica de programação | Noções básicas | Manipulação com o DOM",
+        "desc": "JavaScript é uma linguagem de programação utilizada para desenvolvimento web, que permite a criação de aplicações dinâmicas e interativas.",
         "category": "javascript"
     },
     {
         "_id": 2,
         "tecTitle": "ReactJs",
-        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
-        "color": "blue",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
-        "category": "reactjs"
-    },
-    {
-        "_id": 3,
-        "tecTitle": "Javascript",
-        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
-        "color": "yellow",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
-        "category": "javascript"
-    },
-    {
-        "_id": 4,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://github.com/Elian-beep/assets-online/blob/main/capa_Agenda_de_Consultas.png?raw=true",
-        "color": "blue",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officia fugiat quasi, quas dolore id!",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
+        "color": "#e6e6e6",
+        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
+        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
         "category": "reactjs"
     }
 ]

@@ -38,6 +38,9 @@ export const DivInsignias = styled.div`
 `;
 
 export const DivSkills = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 `;
 
 

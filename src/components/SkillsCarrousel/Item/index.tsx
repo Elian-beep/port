@@ -1,6 +1,7 @@
-import { H2SD } from "styles/index.style";
-import { DivContainerRowS } from "./Item.style";
+import { ButtonSD, DivCenterHor, DivCenterVert, H3SD, PSD } from "styles/index.style";
+import { DivContainerRowS, DivContentRowS, DivImgtecS, ImgTecS, PHabilitysS } from "./Item.style";
 import { ISkill } from 'interfaces/skill';
+import { colors } from "styles/vars.style";
 
 interface Props {
     skillItem: ISkill
@@ -8,22 +9,28 @@ interface Props {
 
 export default function Item(props: Props) {
     return (
-        <DivContainerRowS>
-            <div key={props.skillItem._id} className='item'>
-                <img style={{
-                    width: '50px',
-                    height: '50px'
-                }} src={props.skillItem.urlImage} alt="tecnologia" />
-                <H2SD>
-                    {props.skillItem.tecTitle},
-                </H2SD>
-                <H2SD>
-                    {props.skillItem.desc}
-                </H2SD>
-                <H2SD>
-                    {props.skillItem.category},
-                </H2SD>
-            </div>
+        <DivContainerRowS key={props.skillItem._id}>
+            <DivImgtecS>
+                <ImgTecS src={props.skillItem.urlImage} bkGround={props.skillItem.color} />
+            </DivImgtecS>
+            <DivContentRowS>
+                <H3SD color={colors.white}>
+                    {props.skillItem.tecTitle}
+                </H3SD>
+                <DivCenterVert>
+                    <PSD>
+                        {props.skillItem.desc}
+                    </PSD>
+                    <PHabilitysS>
+                        {props.skillItem.habilitys}
+                    </PHabilitysS>
+                </DivCenterVert>
+            </DivContentRowS>
+            <DivCenterHor>
+                <ButtonSD>
+                    Ver projetos com {props.skillItem.category}
+                </ButtonSD>
+            </DivCenterHor>
         </DivContainerRowS>
     );
 }

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { sizeItemsSkill } from 'styles/vars.style';
 
 export const DivListAreaS = styled.div`
     overflow-x: hidden;
@@ -13,8 +14,8 @@ export const DivListS = styled.div`
 export const DivButtonLeft = styled.div`
     position: absolute;
     width: 40px;
-    height: 500px;
-    /* background-color: rgba(0, 0, 0, 0.6); */
+    height: ${sizeItemsSkill.heigth.mobile}px;
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 99;
     display: flex;
     align-items: center;
@@ -23,7 +24,6 @@ export const DivButtonLeft = styled.div`
     cursor: pointer;
     opacity: 1;
     transition: all ease 0.4s;
-    border-radius: 10px;
 
     left: 0;
 `;
@@ -31,8 +31,8 @@ export const DivButtonLeft = styled.div`
 export const DivButtonRight = styled.div`
     position: absolute;
     width: 40px;
-    height: 500px;
-    /* background-color: rgba(0, 0, 0, 0.6); */
+    height: ${sizeItemsSkill.heigth.mobile}px;
+    background-color: rgba(0, 0, 0, 0.3);
     z-index: 99;
     display: flex;
     align-items: center;
@@ -41,7 +41,6 @@ export const DivButtonRight = styled.div`
     cursor: pointer;
     opacity: 1;
     transition: all ease 0.4s;
-    border-radius: 10px;
 
     right: 0;
 `;

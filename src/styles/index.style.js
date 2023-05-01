@@ -36,6 +36,7 @@ export const DivContainerSD = styled.div`
 
 export const DivCenterVert = styled.div`
   display: flex;
+  gap: 1em;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -43,14 +44,15 @@ export const DivCenterVert = styled.div`
 
 export const DivCenterHor = styled.div`
   display: flex;
+  gap: 1em;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 `;
 
 export const ButtonSD = styled.button`
-  background-color: ${colors.gray_medium};
-  color: ${colors.gray_light};
+  background-color: ${colors.blue_dark};
+  color: ${colors.white};
   font-size: 1em;
   padding: 10px 16px;
   border: none;
@@ -81,4 +83,11 @@ export const H2SD = styled.h2`
     font-weight: 800;
     font-size: 18pt;
     color: ${colors.blue_light};
+`;
+
+export const H3SD = styled.h2`
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16pt;
+    color: ${props => props.color};
 `;
