@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { sizeItemsSkill } from 'styles/vars.style';
 
 export const DivListAreaS = styled.div`
-    overflow-x: hidden;
+    overflow-x: auto;
     padding-left: 30px;
 `;
 

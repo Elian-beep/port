@@ -18,7 +18,8 @@ export const screens = {
 
 export const sizeItemsSkill = {
     width: {
-        mobile: 300
+        mobile: 300,
+        laptop: 500
     },
     heigth: {
         mobile: 450

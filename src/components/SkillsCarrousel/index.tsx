@@ -43,7 +43,7 @@ export default function SkillsCarrousel() {
                     display: 'flex',
                     gap: '1em',
                     alignItems: 'center',
-                    justifyContent: 'center'    
+                    justifyContent: 'center', 
                 }}>
                     {skills.map((skill) => (
                         <Item key={skill._id} skillItem={skill} />

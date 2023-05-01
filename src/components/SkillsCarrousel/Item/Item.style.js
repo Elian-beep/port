@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors, sizeItemsSkill } from 'styles/vars.style';
+import { colors, screens, sizeItemsSkill } from 'styles/vars.style';
 
 export const DivContainerRowS = styled.div`
   background-color: ${colors.gray_dark};
@@ -8,6 +8,17 @@ export const DivContainerRowS = styled.div`
   width: ${sizeItemsSkill.width.mobile}px;
   height: ${sizeItemsSkill.heigth.mobile}px;
   overflow-y: auto;
+
+  @media (min-width: ${screens.laptop}) {
+    &::-webkit-scrollbar{
+      background: ${colors.gray_medium};
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb{
+      background: ${colors.gray_light};
+    }
+  }
 `;
 
 export const DivContentRowS = styled.div`
