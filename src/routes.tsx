@@ -6,6 +6,7 @@ import MenuMobile from 'components/Header/MenuMobile';
 import Header from 'components/Header';
 import Projects from "pages/Projects";
 import Curriculum from "pages/Curriculum";
+import { Footer } from "components/Footer";
 
 export default function AppRouter() {
     const [menuIsVisible, setMenuIsVisible] = useState(false);
@@ -21,6 +22,7 @@ export default function AppRouter() {
                         <Route path="/curriculum" element={<Curriculum />} />
                     </Routes>
                 </DivContainerSD>
+                <Footer />
             </Router>
         </MainContainer>
     );

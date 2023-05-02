@@ -32,7 +32,7 @@ export const DivButtonLeft = styled.div`
     position: absolute;
     width: 40px;
     height: ${sizeItemsSkill.heigth.mobile}px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: ${colors.black};
     z-index: 99;
     display: none;
     align-items: center;
@@ -53,7 +53,7 @@ export const DivButtonRight = styled.div`
     position: absolute;
     width: 40px;
     height: ${sizeItemsSkill.heigth.mobile}px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: ${colors.black};
     z-index: 99;
     display: none;
     align-items: center;
