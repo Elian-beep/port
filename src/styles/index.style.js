@@ -58,8 +58,9 @@ export const ButtonSD = styled.button`
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background .2s ease-in;
   &:hover {
-    background-color: ${colors.gray_dark};
+    background-color: ${colors.blue_light};
   }
 `;
 

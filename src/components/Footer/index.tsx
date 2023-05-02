@@ -17,7 +17,7 @@ export function Footer() {
             <DivBarS />
 
             <DivContactS>
-                <span>Contato</span>
+                <span>Contato:</span>
                 <UlContactS>
                     <li><a href="mailto:elian.19batista@gmail.com">
                         <BsEnvelopeAtFill size={26} />

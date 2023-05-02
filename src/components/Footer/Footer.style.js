@@ -30,10 +30,18 @@ export const DivDevS = styled.div`
         color: ${colors.purple_light};
         font-style: normal;
         text-decoration: none;
+        transition: color .2s ease-in;
+        &:hover{
+            color: ${colors.purple_dark};
+        }
     }
 
     @media (min-width: ${screens.tablet}) {
         width: 60%;
+    }
+
+    @media (min-width: ${screens.laptop}) {
+        width: 50%;
     }
 `;
 
@@ -48,6 +56,10 @@ export const DivContactS = styled.div`
     @media (min-width: ${screens.tablet}) {
         width: 20%;
     }
+
+    @media (min-width: ${screens.laptop}) {
+        width: 50%;
+    }
 `;
 
 export const UlContactS = styled.ul`
@@ -60,10 +72,25 @@ export const UlContactS = styled.ul`
     & li a{
         text-decoration: none;
         color: ${colors.gray_light};
+        transition: color .2s ease-in;
+        &:hover{
+            color: ${colors.purple_dark};
+        }
+
+        @media (min-width: ${screens.tablet}) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .5em;
+        }
     }
 
     & li a .contact-label{
         display: none;
+
+        @media (min-width: ${screens.tablet}) {
+            display: block;
+        }
     }
 
     @media (min-width: ${screens.tablet}) {
