@@ -21,7 +21,7 @@ export default function SkillsCarrousel() {
         let x = scrollX - Math.round(window.innerWidth / 2);//O valor mandado é do 0 até o limite da lista
         let listW = skills.length * sizeItemsSkill.width.mobile;//Largura total dos itens
         if ((window.innerWidth - listW) > x) {//Se O tamanho da tela menos o total de itens for maior que a posição X
-            x = (window.innerWidth - listW) - 60;//Retornar para o limite incluindo o espaçamento do padding da lista
+            x = (window.innerWidth - listW) - 110;//Retornar para o limite incluindo o espaçamento do padding da lista
         }
         setScrollX(x);
     }
@@ -39,11 +39,11 @@ export default function SkillsCarrousel() {
                 <div style={{
                     marginLeft: scrollX - 22,
                     width: skills.length * sizeItemsSkill.width.mobile,
-                    transition: 'all ease .3s',
                     display: 'flex',
                     gap: '1em',
                     alignItems: 'center',
-                    justifyContent: 'center', 
+                    justifyContent: 'center',
+                    transition: 'all ease .3s',
                 }}>
                     {skills.map((skill) => (
                         <Item key={skill._id} skillItem={skill} />

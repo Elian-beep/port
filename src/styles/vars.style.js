@@ -22,6 +22,6 @@ export const sizeItemsSkill = {
         laptop: 500
     },
     heigth: {
-        mobile: 450
+        mobile: 500
     }
 }
