@@ -1,23 +1,12 @@
 import { DivBarS, DivContactS, DivDevS, FooterS, UlContactS } from "./Footer.style";
 import { FiExternalLink } from 'react-icons/fi';
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsLinkedin, BsGithub, BsInstagram, BsEnvelopeAtFill } from 'react-icons/bs';
 
 export function Footer() {
     return (
         <FooterS>
-            <DivDevS>
-                Desenvolvido por:
-                <a href="https://my-link-tree-five.vercel.app">
-                    Elian Batista
-                    <FiExternalLink />
-                </a>
-            </DivDevS>
-
-            <DivBarS />
-
             <DivContactS>
-                <span>Contato:</span>
+                <span className="contact-title">Contato:</span>
                 <UlContactS>
                     <li><a href="mailto:elian.19batista@gmail.com">
                         <BsEnvelopeAtFill size={26} />
@@ -37,6 +26,16 @@ export function Footer() {
                     </a></li>
                 </UlContactS>
             </DivContactS>
+
+            <DivBarS />
+            <DivDevS>
+                Desenvolvido por:
+                <a href="https://my-link-tree-five.vercel.app">
+                    Elian Batista
+                    <FiExternalLink />
+                </a>
+            </DivDevS>
+
         </FooterS>
     );
 }

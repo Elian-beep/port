@@ -10,10 +10,10 @@ export const FooterS = styled.footer`
     gap: 1em;
     font-size: 14pt;
 
-    @media (min-width: ${screens.tablet}) {
+    /* @media (min-width: ${screens.laptop}) {
         flex-direction: row;
         justify-content: space-between;
-    }
+    } */
 `;
 
 export const DivDevS = styled.div`
@@ -22,6 +22,7 @@ export const DivDevS = styled.div`
     justify-content: center;
     align-items: center;
     gap: 6px;
+    font-size: 12pt;
 
     & a{
         display: flex;
@@ -36,9 +37,9 @@ export const DivDevS = styled.div`
         }
     }
 
-    @media (min-width: ${screens.tablet}) {
+    /* @media (min-width: ${screens.tablet}) {
         width: 60%;
-    }
+    } */
 
     @media (min-width: ${screens.laptop}) {
         width: 50%;
@@ -53,9 +54,13 @@ export const DivContactS = styled.div`
     align-items: center;
     gap: 1em;
 
-    @media (min-width: ${screens.tablet}) {
-        width: 20%;
+    & .contact-title{
+        /* font-size: 12pt; */
     }
+
+    /* @media (min-width: ${screens.tablet}) {
+        width: 25%;
+    } */
 
     @media (min-width: ${screens.laptop}) {
         width: 50%;
@@ -88,7 +93,7 @@ export const UlContactS = styled.ul`
     & li a .contact-label{
         display: none;
 
-        @media (min-width: ${screens.tablet}) {
+        @media (min-width: ${screens.laptop}) {
             display: block;
         }
     }
@@ -103,8 +108,8 @@ export const DivBarS = styled.div`
     height: 1px;
     background: ${colors.gray_light};
 
-    @media (min-width: ${screens.tablet}){
+    /* @media (min-width: ${screens.tablet}){
         height: 150px;
         width: 1px;
-    }
+    } */
 `;
