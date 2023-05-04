@@ -34,6 +34,13 @@ export const DivContainerSD = styled.div`
   }
 `;
 
+export const DivContentS = styled.div`
+    /* padding: 16px 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+`;
+
 export const DivCenterVert = styled.div`
   display: flex;
   gap: 1em;

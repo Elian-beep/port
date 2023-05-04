@@ -1,13 +1,6 @@
 import styled from 'styled-components';
 import { screens } from 'styles/vars.style';
 
-export const DivContentS = styled.div`
-    /* padding: 16px 0; */
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-`;
-
 export const DivRotateS = styled.div`
     display: flex;
     flex-direction: column;
