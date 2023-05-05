@@ -14,7 +14,7 @@ export const DivBtnfillter = styled.div`
 `;
 
 export const ButtonFillterS = styled.button`
-    background-color: ${colors.purple_light};
+    background-color: ${colors.blue_dark};
     color: ${colors.white};
     padding: 8px;
     font-size: 10pt;
@@ -24,9 +24,9 @@ export const ButtonFillterS = styled.button`
     transition: all 0.2s ease-in-out;
 
     ${ ({  isFilter }) => isFilter && css`
-        background-color: ${colors.purple_dark};
-        box-shadow: inset 0px 2px 30px rgba(0, 0, 0, 0.7);
-        transform: translateY(3px);
+        background-color: transparent;
+        /* box-shadow: inset 0px 2px 30px rgba(0, 0, 0, 0.7);
+        transform: translateY(3px); */
     ` }
     
     & :hover{
