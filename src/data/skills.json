@@ -10,6 +10,15 @@
     },
     {
         "_id": 2,
+        "tecTitle": "Typescript",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-typescript.png",
+        "color": "#3178c6",
+        "habilitys": "Consumação de API | Lógica de Programação | Orientação a Objetos | Interfaces | Atualização de views",
+        "desc": "TypeScript é uma linguagem de programação livre e de código aberto que é uma superset da linguagem JavaScript.",
+        "category": "typescript"
+    },
+    {
+        "_id": 3,
         "tecTitle": "ReactJs",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-reactjs.png",
         "color": "#e6e6e6",
@@ -18,12 +27,21 @@
         "category": "reactjs"
     },
     {
-        "_id": 3,
+        "_id": 4,
         "tecTitle": "VueJs",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-vuejs.jpg",
         "color": "#28313a",
         "habilitys": "Reutilização de Componentes | Vue Router",
         "desc": "Vue.js é um framework progressivo de JavaScript, de código aberto e com foco em desenvolvimento de interfaces de usuário (UI).",
         "category": "vuejs"
+    },
+    {
+        "_id": 5,
+        "tecTitle": "NodeJs",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-nodejs.jpg",
+        "color": "#000000",
+        "habilitys": "API Rest | Lógica de Programação | HTTP | Configurações Básicas CORS | AUTH | Comunicações com MongoDB",
+        "desc": "Node.js é uma plataforma de desenvolvimento de aplicações web em JavaScript, que permite a execução de código JavaScript fora do navegador, no lado do servidor.",
+        "category": "nodejs"
     }
 ]

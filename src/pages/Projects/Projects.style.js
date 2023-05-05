@@ -16,15 +16,22 @@ export const DivBtnfillter = styled.div`
 export const ButtonFillterS = styled.button`
     background-color: ${colors.purple_light};
     color: ${colors.white};
-    padding: 10px;
+    padding: 8px;
+    font-size: 10pt;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 
     ${ ({  isFilter }) => isFilter && css`
         background-color: ${colors.purple_dark};
-        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);
-        transform: translateY(1px);
+        box-shadow: inset 0px 2px 30px rgba(0, 0, 0, 0.7);
+        transform: translateY(3px);
     ` }
+    
+    & :hover{
+        background-color: ${colors.purple_dark};
+    }
+
 
 `;
