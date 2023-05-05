@@ -1,9 +1,11 @@
 import { DivContentS, H2SD, H3SD, PSD } from 'styles/index.style';
-import categories from 'data/categories.json';
+import skills from 'data/skills.json';
 import inProject from 'services/inProjects';
 import { IProject } from 'interfaces/iProject';
 import { useEffect, useState } from 'react';
-import { ICategory } from 'interfaces/iCategory';
+import { ButtonFillterS, DivBtnfillter, DivContentFillter } from './Projects.style';
+import { colors } from 'styles/vars.style';
+import { ISkill } from 'interfaces/iSkill';
 
 export default function Projects() {
     const [filters, setFilters] = useState<string[]>([]);
@@ -16,19 +18,31 @@ export default function Projects() {
     }, [filters]);
 
     function selectFilter(filterClicked: string) {
-        return !filters.includes(filterClicked) ? setFilters([...filters, filterClicked]) :  setFilters(filters.filter(category => category !== filterClicked));
+        if (!filters.includes(filterClicked)) {
+            setFilters([...filters, filterClicked]);
+        } else {
+            setFilters(filters.filter(category => category !== filterClicked));
+        }
     }
 
     return (
         <DivContentS>
             <H2SD>Projects</H2SD>
-            <div>
-                {categories.map((category: ICategory) => (
-                    <div key={category._id}>
-                        <button onClick={() => selectFilter(category.title)} >{category.title}</button>
-                    </div>
-                ))}
-            </div>
+            <DivContentFillter>
+                <H3SD color={colors.white} >Filtros</H3SD>
+                <DivBtnfillter>
+                    {skills.map((category: ISkill) => (
+                        <ButtonFillterS
+                            key={category._id}
+                            onClick={() => selectFilter(category.category)}
+                            isFilter={filters.includes(category.category)}
+                            color={category.color}
+                        >
+                            {category.tecTitle}
+                        </ButtonFillterS>
+                    ))}
+                </DivBtnfillter>
+            </DivContentFillter>
             <div>
                 {
                     listProjects.map(project => (

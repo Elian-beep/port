@@ -2,67 +2,28 @@
     {
         "_id": 1,
         "tecTitle": "Javascript",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-javascript.png",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-javascript.png",
         "color": "#ffdf00",
         "habilitys": "Lógica de programação | Noções básicas | Manipulação com o DOM",
         "desc": "JavaScript é uma linguagem de programação utilizada para desenvolvimento web, que permite a criação de aplicações dinâmicas e interativas.",
         "category": "javascript"
     },
     {
+        "_id": 2,
+        "tecTitle": "ReactJs",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-reactjs.png",
+        "color": "#e6e6e6",
+        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
+        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
+        "category": "reactjs"
+    },
+    {
         "_id": 3,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
-        "color": "#e6e6e6",
-        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
-        "category": "reactjs"
-    },{
-        "_id": 4,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
-        "color": "#e6e6e6",
-        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
-        "category": "reactjs"
-    },{
-        "_id": 5,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
-        "color": "#e6e6e6",
-        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
-        "category": "reactjs"
-    },{
-        "_id": 6,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
-        "color": "#e6e6e6",
-        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
-        "category": "reactjs"
-    },{
-        "_id": 7,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
-        "color": "#e6e6e6",
-        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
-        "category": "reactjs"
-    },{
-        "_id": 8,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
-        "color": "#e6e6e6",
-        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
-        "category": "reactjs"
-    },{
-        "_id": 9,
-        "tecTitle": "ReactJs",
-        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/image-reactjs.png",
-        "color": "#e6e6e6",
-        "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
-        "category": "reactjs"
+        "tecTitle": "VueJs",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-vuejs.jpg",
+        "color": "#28313a",
+        "habilitys": "Reutilização de Componentes | Vue Router",
+        "desc": "Vue.js é um framework progressivo de JavaScript, de código aberto e com foco em desenvolvimento de interfaces de usuário (UI).",
+        "category": "vuejs"
     }
 ]
