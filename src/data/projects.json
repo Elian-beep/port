@@ -1,30 +1,28 @@
 [
     {
-        "name": "Projeto 1",
-        "category": ["javascript", "reactjs"]
+        "_id": 1,
+        "name": "Xiloteca CESIT",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20xiloteca%20cesit.png",
+        "desc": "Front end da versão administrativa dos dados da Xiloteca Web Cesit desenvolvida em Vue durante o andamento do projeto de extensão da UEA-CESIT",
+        "category": ["javascript", "vuejs"],
+        "githubLink": "https://github.com/Elian-beep/Front-XilotecaAdm",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://xilotecacp.vercel.app/",
+            "isResponse": true
+        }
     },
     {
-        "name": "Projeto 2",
-        "category": ["javascript"]
-    },
-    {
-        "name": "Projeto 3",
-        "category": ["nodejs"]
-    },
-    {
-        "name": "Projeto 4",
-        "category": ["vuejs"]
-    },
-    {
-        "name": "Projeto 5",
-        "category": ["nodejs", "reactjs"]
-    },
-    {
-        "name": "Projeto 6",
-        "category": ["javascript"]
-    },
-    {
-        "name": "Projeto 7",
-        "category": ["javascript", "vuejs"]
+        "_id": 2,
+        "name": "API Rest Xiloteca CESIT",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa/capa.png",
+        "desc": "API Rest backend para o controle de informações trafegadas entre as aplicações da Xiloteca CESIT para a manipulação dos dados",
+        "category": ["javascript", "nodejs"],
+        "githubLink": "https://github.com/Elian-beep/Back-API-Xiloteca",
+        "web": {
+            "isWeb": false,
+            "webLink": "",
+            "isResponse": false
+        }
     }
 ]

@@ -82,7 +82,7 @@ export const PSD = styled.p`
 export const H1SD = styled.h1`
   font-style: normal;
     font-weight: 900;
-    font-size: 22pt;
+    font-size: 16pt;
     color: ${colors.blue_light};
 `;
 

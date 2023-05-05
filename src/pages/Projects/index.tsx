@@ -1,4 +1,4 @@
-import { DivContentS, H2SD, H3SD, PSD } from 'styles/index.style';
+import { DivContentS, H2SD, H3SD} from 'styles/index.style';
 import skills from 'data/skills.json';
 import inProject from 'services/inProjects';
 import { IProject } from 'interfaces/iProject';
@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { ButtonFillterS, DivBtnfillter, DivContentFillter } from './Projects.style';
 import { colors } from 'styles/vars.style';
 import { ISkill } from 'interfaces/iSkill';
+import { ProjectCard } from 'components/ProjectCard';
 
 export default function Projects() {
     const [filters, setFilters] = useState<string[]>([]);
@@ -43,17 +44,13 @@ export default function Projects() {
                     ))}
                 </DivBtnfillter>
             </DivContentFillter>
-            <div>
-                {
-                    listProjects.map(project => (
-                        <div key={project.name}>
-                            <H2SD>
-                                {project.name} -
-                            </H2SD>
-                            <PSD>{project.category.map(category => `${category} - `)}</PSD>
-                        </div>
-                    ))
-                }
+            <div style={{
+                display: 'flex',
+                gap: '1em',
+                justifyContent: 'center',
+                flexWrap: 'wrap'
+            }}>
+                <ProjectCard projects={listProjects} />
             </div>
 
 
