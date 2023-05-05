@@ -24,9 +24,9 @@ export const ButtonFillterS = styled.button`
     transition: all 0.2s ease-in-out;
 
     ${ ({  isFilter }) => isFilter && css`
-        background-color: transparent;
-        /* box-shadow: inset 0px 2px 30px rgba(0, 0, 0, 0.7);
-        transform: translateY(3px); */
+        background-color: ${colors.purple_light};
+        box-shadow: inset 0px 2px 30px rgba(0, 0, 0, 0.7);
+        transform: translateY(3px);
     ` }
     
     & :hover{
