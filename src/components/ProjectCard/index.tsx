@@ -1,6 +1,6 @@
 import { IProject } from "interfaces/iProject";
 import { H3SD, PSD } from "styles/index.style";
-import { AGithubcardS, AVisitcardS, DivBtnscard, DivCardcontainerS, DivCardcontentS, DivCardimageS, DivTecsS, ImgProjectCardS, SpanTecsS } from "./ProjectCard.style";
+import { AGithubcardS, AVisitcardS, DivBtnscard, DivCardcontainerS, DivCardimageS, DivTecsS, ImgProjectCardS, SpanTecsS } from "./ProjectCard.style";
 import { colors } from "styles/vars.style";
 
 interface Props {
@@ -12,7 +12,6 @@ export function ProjectCard(props: Props) {
         <>
             {props.projects.map(project => (
                 <DivCardcontainerS>
-                    <DivCardcontentS>
                         <DivCardimageS>
                             <ImgProjectCardS src={project.urlImage} />
                         </DivCardimageS>
@@ -27,7 +26,8 @@ export function ProjectCard(props: Props) {
                             <AGithubcardS href={project.githubLink} >Github</AGithubcardS>
                             <AVisitcardS href={project.web.webLink} isWeb={project.web.isWeb} >Visitar</AVisitcardS>
                         </DivBtnscard>
-                    </DivCardcontentS>
+                    {/* <DivCardcontentS>
+                    </DivCardcontentS> */}
                 </DivCardcontainerS>
             ))}
         </>

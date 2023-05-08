@@ -6,6 +6,7 @@ export const colors = {
     gray_light: "#AAAAAA", //textos e conteúdos secundários, como descrições e informações adicionais
     blue_dark: "#1E90FF", //links e botões de chamada para ação (CTAs) para destacá-los dos outros elementos
     blue_light: "#65c9ff", //realçar informações importantes e para botões secundários
+    blue_navy: "#063a55",
     purple_dark: "#6A5ACD", //botões e CTAs que requerem atenção extra
     purple_light: "#9370DB"
 }
@@ -19,9 +20,8 @@ export const screens = {
 export const sizeItemsSkill = {
     width: {
         mobile: 300,
-        laptop: 500
     },
     heigth: {
-        mobile: 500
+        mobile: 450
     }
 }

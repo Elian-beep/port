@@ -5,9 +5,8 @@ export const DivContainerS = styled.div`
     padding: 12px;
     background: ${colors.blue_light};
     border-radius: 4px;
-    color: ${colors.white};
+    color: ${colors.blue_navy};
     font-size: 14pt;
-    font-weight: 400;
-
+    font-weight: 500;
     align-self: center;
 `;

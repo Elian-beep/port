@@ -3,7 +3,7 @@
         "_id": 1,
         "name": "Xiloteca CESIT",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20xiloteca%20cesit.png",
-        "desc": "Front end da versão administrativa dos dados da Xiloteca Web Cesit desenvolvida em Vue durante o andamento do projeto de extensão da UEA-CESIT",
+        "desc": "Front end da versão pública dos dados da Xiloteca Web Cesit desenvolvida em Vue durante o andamento do projeto de extensão da UEA-CESIT | Front end da versão pública dos dados da Xiloteca Web Cesit desenvolvida em Vue durante o andamento do projeto de extensão da UEA-CESIT",
         "category": ["javascript", "vuejs"],
         "githubLink": "https://github.com/Elian-beep/Front-XilotecaAdm",
         "web": {

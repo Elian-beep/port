@@ -14,19 +14,21 @@ export const DivBtnfillter = styled.div`
 `;
 
 export const ButtonFillterS = styled.button`
-    background-color: ${colors.blue_dark};
+    background-color: transparent;
     color: ${colors.white};
     padding: 8px;
     font-size: 10pt;
-    border: none;
+    border: 1px solid ${colors.white};
+    border-style: dashed;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 
     ${ ({  isFilter }) => isFilter && css`
-        background-color: ${colors.purple_light};
-        box-shadow: inset 0px 2px 30px rgba(0, 0, 0, 0.7);
+        background-color: ${colors.blue_dark};
+        box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.7);
         transform: translateY(3px);
+        border: none;
     ` }
     
     & :hover{

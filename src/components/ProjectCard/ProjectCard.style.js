@@ -5,20 +5,21 @@ export const DivCardcontainerS = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 1em;
     height: 420px;
     width: 300px;
     padding: 12px;
     border-radius: 5px;
     background: ${colors.gray_dark};
-    `;
+    overflow-y: auto;
 
-export const DivCardcontentS = styled.div`
-overflow-y: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    align-items: center;
-    border-radius: 5px;
+    ::-webkit-scrollbar {
+    width: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 0px 5px 5px 0px;
+    }
 
 `;
 

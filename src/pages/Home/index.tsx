@@ -9,15 +9,21 @@ export default function Home() {
     return (
         <DivContentS>
             <DivRotateS>
-                <PSD>
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '.7em'
+                }} >
                     <H2SD>Olá, bem vindo</H2SD>
-                    Meu nome é Elian Batista, desenvolvo aplicações (em sua maioria, projetos web) mas sempre com
-                    aptidão e conforto em aprender e desenvolver o que for necessário para meu crescimento.
-                    Acredito que a tecnologia é uma área em constante evolução, o que me encanta e me inspira a sempre
-                    buscar mais conhecimento e habilidades. Estou sempre em busca de novos desafios e de me especializar
-                    em tecnologias atuais e emergentes, a fim de contribuir para o meu crescimento profissional e pessoal, e estar preparado
-                    para as inovações tecnológicas que estão por vir.
-                </PSD>
+                    <PSD>
+                        Meu nome é Elian Batista, desenvolvo aplicações (em sua maioria, projetos web) mas sempre com
+                        aptidão e conforto em aprender e desenvolver o que for necessário para meu crescimento.
+                        Acredito que a tecnologia é uma área em constante evolução, o que me encanta e me inspira a sempre
+                        buscar mais conhecimento e habilidades. Estou sempre em busca de novos desafios e de me especializar
+                        em tecnologias atuais e emergentes, a fim de contribuir para o meu crescimento profissional e pessoal, e estar preparado
+                        para as inovações tecnológicas que estão por vir.
+                    </PSD>
+                </div>
                 <ImgProfileS src={profileImage} />
             </DivRotateS>
             <PSD>
