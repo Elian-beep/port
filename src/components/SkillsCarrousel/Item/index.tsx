@@ -18,12 +18,12 @@ export default function Item(props: Props) {
                     {props.skillItem.tecTitle}
                 </H3SD>
                 <DivCenterVert>
-                    <PSD>
-                        {props.skillItem.desc}
-                    </PSD>
                     <PHabilitysS>
                         {props.skillItem.habilitys}
                     </PHabilitysS>
+                    <PSD>
+                        {props.skillItem.desc}
+                    </PSD>
                 </DivCenterVert>
             </DivContentRowS>
             {/* <DivCenterHor>

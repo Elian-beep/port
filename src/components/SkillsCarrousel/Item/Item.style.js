@@ -46,5 +46,5 @@ export const ImgTecS = styled.img`
 
 export const PHabilitysS = styled.p`
   color: ${colors.white};
-  text-align: center;
+  text-align: justify;
 `;

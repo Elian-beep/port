@@ -5,7 +5,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-javascript.png",
         "color": "#ffdf00",
         "habilitys": "Lógica de programação | Noções básicas | Manipulação com o DOM",
-        "desc": "JavaScript é uma linguagem de programação utilizada para desenvolvimento web, que permite a criação de aplicações dinâmicas e interativas.",
+        "desc": "Linguagem de programação para desenvolvimento web.",
         "category": "javascript"
     },
     {
@@ -14,7 +14,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-typescript.png",
         "color": "#3178c6",
         "habilitys": "Consumação de API | Lógica de Programação | Orientação a Objetos | Interfaces | Atualização de views",
-        "desc": "TypeScript é uma linguagem de programação livre e de código aberto que é uma superset da linguagem JavaScript.",
+        "desc": "Linguagem de programação livre baseada em JavaScript.",
         "category": "typescript"
     },
     {
@@ -23,7 +23,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-reactjs.png",
         "color": "#e6e6e6",
         "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto do Facebook para construção de interfaces de usuário reutilizáveis e escaláveis.",
+        "desc": "Biblioteca JS para UI escaláveis e reutilizáveis.",
         "category": "reactjs"
     },
     {
@@ -32,7 +32,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-vuejs.jpg",
         "color": "#28313a",
         "habilitys": "Reutilização de Componentes | Vue Router",
-        "desc": "Vue.js é um framework progressivo de JavaScript, de código aberto e com foco em desenvolvimento de interfaces de usuário (UI).",
+        "desc": "Framework de JS para interfaces de usuário progressivas.",
         "category": "vuejs"
     },
     {
@@ -41,7 +41,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-nodejs.jpg",
         "color": "#000000",
         "habilitys": "API Rest | Lógica de Programação | HTTP | Configurações Básicas CORS | AUTH | Comunicações com MongoDB",
-        "desc": "Node.js é uma plataforma que executa código JavaScript fora do navegador, no lado do servidor, para desenvolvimento de aplicações web.",
+        "desc": "Executa código JavaScript no servidor para aplicações web.",
         "category": "nodejs"
     },
     {
@@ -50,7 +50,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-bootstrap.png",
         "color": "#6f44a4",
         "habilitys": "Flexibilidade em instalação da ferramenta | Fácil modificação pela documentação",
-        "desc": "Bootstrap é um framework de design de UI que permite o desenvolvimento rápido de interfaces web responsivas e atraentes.",
+        "desc": "Framework de design de UI para interfaces web responsivas.",
         "category": "bootstrap"
     }
 ]
