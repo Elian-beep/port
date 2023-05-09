@@ -1,5 +1,5 @@
 export interface IProject {
-    _id: number,
+    _id: string,
     name: string,
     urlImage: string,
     desc: string,

@@ -28,7 +28,7 @@ export default function Projects() {
 
     return (
         <DivContentS>
-            <H2SD>Projects</H2SD>
+            <H2SD>Projetos</H2SD>
             <DivContentFillter>
                 <H3SD color={colors.white} >Filtros</H3SD>
                 <DivBtnfillter>

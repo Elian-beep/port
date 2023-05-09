@@ -1,5 +1,5 @@
 export interface ISkill {
-    _id: number,
+    _id: string,
     tecTitle: string,
     urlImage: string,
     color: string,

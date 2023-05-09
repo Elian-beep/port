@@ -1,6 +1,6 @@
 [
     {
-        "_id": 1,
+        "_id": "1",
         "tecTitle": "Javascript",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-javascript.png",
         "color": "#ffdf00",
@@ -9,7 +9,7 @@
         "category": "javascript"
     },
     {
-        "_id": 2,
+        "_id": "2",
         "tecTitle": "Typescript",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-typescript.png",
         "color": "#3178c6",
@@ -18,7 +18,7 @@
         "category": "typescript"
     },
     {
-        "_id": 3,
+        "_id": "3",
         "tecTitle": "ReactJs",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-reactjs.png",
         "color": "#e6e6e6",
@@ -27,7 +27,7 @@
         "category": "reactjs"
     },
     {
-        "_id": 4,
+        "_id": "4",
         "tecTitle": "VueJs",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-vuejs.jpg",
         "color": "#28313a",
@@ -36,12 +36,21 @@
         "category": "vuejs"
     },
     {
-        "_id": 5,
+        "_id": "5",
         "tecTitle": "NodeJs",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-nodejs.jpg",
         "color": "#000000",
         "habilitys": "API Rest | Lógica de Programação | HTTP | Configurações Básicas CORS | AUTH | Comunicações com MongoDB",
         "desc": "Node.js é uma plataforma de desenvolvimento de aplicações web em JavaScript, que permite a execução de código JavaScript fora do navegador, no lado do servidor.",
         "category": "nodejs"
+    },
+    {
+        "_id": "6",
+        "tecTitle": "Bootstrap",
+        "urlImage": "",
+        "color": "#6f44a4",
+        "habilitys": "Flexibilidade em instalação da ferramenta | Fácil modificação pela documentação",
+        "desc": "Bootstrap é um framework de design de interface de usuário (UI) de código aberto, que permite o desenvolvimento rápido e fácil de interfaces web responsivas e visualmente atraentes.",
+        "category": "bootstrap"
     }
 ]

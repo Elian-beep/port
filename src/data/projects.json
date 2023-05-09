@@ -1,9 +1,9 @@
 [
     {
-        "_id": 1,
+        "_id": "1",
         "name": "Xiloteca CESIT",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20xiloteca%20cesit.png",
-        "desc": "Front end da versão pública dos dados da Xiloteca Web Cesit desenvolvida em Vue durante o andamento do projeto de extensão da UEA-CESIT | Front end da versão pública dos dados da Xiloteca Web Cesit desenvolvida em Vue durante o andamento do projeto de extensão da UEA-CESIT",
+        "desc": "Front end da versão pública dos dados da Xiloteca Web Cesit desenvolvida em Vue.js durante o andamento do projeto de extensão da UEA-CESIT",
         "category": ["javascript", "vuejs"],
         "githubLink": "https://github.com/Elian-beep/Front-XilotecaAdm",
         "web": {
@@ -13,16 +13,246 @@
         }
     },
     {
-        "_id": 2,
+        "_id": "2",
         "name": "API Rest Xiloteca CESIT",
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa/capa.png",
-        "desc": "API Rest backend para o controle de informações trafegadas entre as aplicações da Xiloteca CESIT para a manipulação dos dados",
+        "desc": "API Rest backend feito com Node.js + Express para o controle de informações trafegadas entre as aplicações da Xiloteca CESIT para a manipulação dos dados",
         "category": ["javascript", "nodejs"],
         "githubLink": "https://github.com/Elian-beep/Back-API-Xiloteca",
         "web": {
             "isWeb": false,
             "webLink": "",
             "isResponse": false
+        }
+    },
+    {
+        "_id": "3",
+        "name": "Xiloteca CESIT - Adm",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20xiloteca%20cesit%20adm.png",
+        "desc": "Fron end feito em Vue.js da versão restrita administrativa desenvolvida para os administradores manipularem os dados da Xiloteca Virtual CESIT, dados estes que são resgatados de um MongoDB",
+        "category": ["javascript", "vuejs"],
+        "githubLink": "https://github.com/Elian-beep/Front-XilotecaAdm",
+        "web": {
+            "isWeb": false,
+            "webLink": "",
+            "isResponse": false
+        }
+    },
+    {
+        "_id": "4",
+        "name": "Link Tree",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20my%20linktree.png",
+        "desc": "Minha própria árvore de links contendo minhas informações para contato, stacks e exibição de primeiras habilidades aprendidas em Vue.js",
+        "category": ["javascript", "vuejs"],
+        "githubLink": "https://github.com/Elian-beep/my-link-tree",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://my-link-tree-five.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "5",
+        "name": "Portifólio",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20meu%20portifolio.png",
+        "desc": "Meu próprio portifólio feito em React.js + Typescript + Styled Components para exibição de minhas habilidades, conceitos e melhores projetos ja desenvolvido consumindo dados de um banco de dados MongoDB",
+        "category": ["typescript", "reactjs"],
+        "githubLink": "https://github.com/Elian-beep/port",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://codeport.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "6",
+        "name": "Negociações",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20negociacoes.png",
+        "desc": "Projeto desenvolvido em Typescript com Bootstrap para simular a organização de datas de negociações com regras de negócio aplicadas (impedimento de negociações em finais de semana)",
+        "category": ["typescript", "bootstrap"],
+        "githubLink": "https://github.com/Elian-beep/Insert_Negociacoes",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://insert-negociacoes.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "7",
+        "name": "Code Chella",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20codechella.png",
+        "desc": "Projeto desenvolvido em React.js + typescript + SASS como desafio da escola Alura baseado em um design pré desenvolvido pela Escola Front End",
+        "category": ["typescript", "reactjs", "sass"],
+        "githubLink": "https://github.com/Elian-beep/Code-Chella",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://code-chella-pi.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "8",
+        "name": "Design System Rocketseat",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20design%20system.png",
+        "desc": "Projeto desenvolvido em React.js + Typescript durante o evento Ignite proporcionado pela Rocketseat",
+        "category": ["typescript", "reactjs"],
+        "githubLink": "https://github.com/Elian-beep/Design-System-React",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://design-system-react-ten.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "9",
+        "name": "Chuva Galoá",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20chuva%20galoa.png",
+        "desc": "Projeto desenvolvido em HTML + CSS + JS para a seleção de estágio na Chuva/Galoá",
+        "category": ["javascript", "html", "css"],
+        "githubLink": "https://github.com/Elian-beep/ExercicioChuva",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://slac-chuva.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "10",
+        "name": "Delivery Restaurant",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20delivery%20restaurant.png",
+        "desc": "Projeto desenvolvido em Bootstrap + HTML + JS simulando o sistema cliente de um delivery para uma churrascaria fictícia",
+        "category": ["bootstrap", "html", "javascript"],
+        "githubLink": "https://github.com/Elian-beep/delivery-restaurant",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://delivery-restaurant.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "11",
+        "name": "Alura Geek",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20alura%20geek.png",
+        "desc": "Projeto desenvolvido em HTML + CSS durante o 5° Challenge Frontend da Alura mostrando uma loja online de artefatos da cultura geek",
+        "category": ["css", "html"],
+        "githubLink": "https://github.com/Elian-beep/AluraGeek",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://alura-geek-yz7l.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "12",
+        "name": "Alura Book",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20alura%20book.png",
+        "desc": "Projeto feito com HTML + CSS representando uma loja online de livros de tecnologia",
+        "category": ["css", "html"],
+        "githubLink": "https://github.com/Elian-beep/Alurabook",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://alurabook-eight.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "13",
+        "name": "iMovi",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20imovi.png",
+        "desc": "Aplicação front end feita com HTML + Bootstrap representando uma plataforma de financiamento e planejamento de imóveis",
+        "category": ["css", "html", "bootstrap"],
+        "githubLink": "https://github.com/Elian-beep/iMovi",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://i-movi.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "14",
+        "name": "Primeiro Portifólio",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20primeiro%20portifolio.png",
+        "desc": "Primeiro portifólio desenvolvido em React.js consumindo a API pública do github para obtenção de todos os projetos públicos",
+        "category": ["reactjs", "javascript"],
+        "githubLink": "https://github.com/Elian-beep/basic-portfolio",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://basic-portfolio-delta.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "15",
+        "name": "Lista de Compras",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20shop%20list.png",
+        "desc": "Todo List focado em Quantidade x Produto para organização de uma lista de compras com animação de marcação",
+        "category": ["html", "javascript", "css"],
+        "githubLink": "https://github.com/Elian-beep/Basic-Lista-Compras",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://lista-compras-seven.vercel.app",
+            "isResponse": true
+        }
+    },
+    {
+        "_id": "16",
+        "name": "API Rest com ORM",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa/capa.png",
+        "desc": "Uma simples API para testar meus conhecimentos em Express+NodeJS+Sequelize+SQL",
+        "category": ["nodejs"],
+        "githubLink": "https://github.com/Elian-beep/NodeJS-ORM/tree/main",
+        "web": {
+            "isWeb": false,
+            "webLink": "",
+            "isResponse": false
+        }
+    },{
+        "_id": "17",
+        "name": "First Web Curriculo",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20web%20curriculo.png",
+        "desc": "Primeiro Web Curriculo (desatualizado) para exibição dos meus dados contratuais e profissionais",
+        "category": ["reactjs", "nextjs", "css"],
+        "githubLink": "https://github.com/Elian-beep/Prot-WebCurriculo",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://prot-web-curriculo.vercel.app",
+            "isResponse": true
+        }
+    },{
+        "_id": "18",
+        "name": "Tasks List",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20taks%20list.png",
+        "desc": "Lista de tarefas responsivo para prática do Javascript dentro do front end",
+        "category": ["javascript", "html", "css"],
+        "githubLink": "https://github.com/Elian-beep/Simple-Tasks",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://simple-tasks.vercel.app",
+            "isResponse": true
+        }
+    },{
+        "_id": "19",
+        "name": "Amostragem Sistemática",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20amostragem%20sistematica.png",
+        "desc": "Aplicação original que realiza o calculo matemático de uma Amostragem Sistemática e exibe as estátisticas realizadas de forma organizada",
+        "category": ["javascript", "html", "css"],
+        "githubLink": "https://github.com/Elian-beep/Amostragem-Sistematica",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://simple-tasks.vercel.app",
+            "isResponse": true
+        }
+    },{
+        "_id": "20",
+        "name": "Clone Netflix",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/capa%20portfolio/capa%20clone%20netflix.png",
+        "desc": "Recriação da tela inicial do serviço de Streaming Netflix feita em React.js utilizando os dados de filmes da API The Movie Data Base",
+        "category": ["reactjs", "html", "css"],
+        "githubLink": "https://github.com/Elian-beep/betflix",
+        "web": {
+            "isWeb": true,
+            "webLink": "https://clone-netflix-weld.vercel.app",
+            "isResponse": true
         }
     }
 ]
