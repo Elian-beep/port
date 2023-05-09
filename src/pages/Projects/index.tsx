@@ -46,7 +46,7 @@ export default function Projects() {
             </DivContentFillter>
             <div style={{
                 display: 'flex',
-                gap: '1.2em',
+                gap: '1.1em',
                 justifyContent: 'center',
                 flexWrap: 'wrap'
             }}>
