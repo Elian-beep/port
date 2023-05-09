@@ -1,4 +1,4 @@
-import { ButtonSD, DivCenterHor, DivCenterVert, H3SD, PSD } from "styles/index.style";
+import { DivCenterVert, H3SD, PSD } from "styles/index.style";
 import { DivContainerRowS, DivContentRowS, DivImgtecS, ImgTecS, PHabilitysS } from "./Item.style";
 import { ISkill } from 'interfaces/iSkill';
 import { colors } from "styles/vars.style";
