@@ -26,11 +26,11 @@ export default function Item(props: Props) {
                     </PHabilitysS>
                 </DivCenterVert>
             </DivContentRowS>
-            <DivCenterHor>
+            {/* <DivCenterHor>
                 <ButtonSD>
                     Ver projetos com {props.skillItem.category}
                 </ButtonSD>
-            </DivCenterHor>
+            </DivCenterHor> */}
         </DivContainerRowS>
     );
 }

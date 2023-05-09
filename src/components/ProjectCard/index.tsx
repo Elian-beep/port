@@ -23,11 +23,9 @@ export function ProjectCard(props: Props) {
                             ))}
                         </DivTecsS>
                         <DivBtnscard>
-                            <AGithubcardS href={project.githubLink} >Github</AGithubcardS>
-                            <AVisitcardS href={project.web.webLink} isWeb={project.web.isWeb} >Visitar</AVisitcardS>
+                            <AGithubcardS target="blank" href={project.githubLink} >Github</AGithubcardS>
+                            <AVisitcardS target="blank" href={project.web.webLink} isWeb={project.web.isWeb} >Visitar</AVisitcardS>
                         </DivBtnscard>
-                    {/* <DivCardcontentS>
-                    </DivCardcontentS> */}
                 </DivCardcontainerS>
             ))}
         </>

@@ -1,9 +1,9 @@
-import { ButtonSD, PSD, H2SD } from 'styles/index.style';
+import { H2SD } from 'styles/index.style';
 
 export default function Curriculum() {
     return (
         <section>
-            <H2SD>Curriculum</H2SD>
+            <H2SD>Página de currículo em desenvolvimento</H2SD>
         </section>
     );
 }

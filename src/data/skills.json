@@ -47,7 +47,7 @@
     {
         "_id": "6",
         "tecTitle": "Bootstrap",
-        "urlImage": "",
+        "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-bootstrap.png",
         "color": "#6f44a4",
         "habilitys": "Flexibilidade em instalação da ferramenta | Fácil modificação pela documentação",
         "desc": "Bootstrap é um framework de design de interface de usuário (UI) de código aberto, que permite o desenvolvimento rápido e fácil de interfaces web responsivas e visualmente atraentes.",
