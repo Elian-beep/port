@@ -23,7 +23,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-reactjs.png",
         "color": "#e6e6e6",
         "habilitys": "React Router DOM | Styled Components | Modules SCSS | Hooks",
-        "desc": "React é uma biblioteca JavaScript de código aberto criada pelo Facebook, que permite a construção de interfaces de usuário (UI) reutilizáveis e escaláveis.",
+        "desc": "React é uma biblioteca JavaScript de código aberto do Facebook para construção de interfaces de usuário reutilizáveis e escaláveis.",
         "category": "reactjs"
     },
     {
@@ -41,7 +41,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-nodejs.jpg",
         "color": "#000000",
         "habilitys": "API Rest | Lógica de Programação | HTTP | Configurações Básicas CORS | AUTH | Comunicações com MongoDB",
-        "desc": "Node.js é uma plataforma de desenvolvimento de aplicações web em JavaScript, que permite a execução de código JavaScript fora do navegador, no lado do servidor.",
+        "desc": "Node.js é uma plataforma que executa código JavaScript fora do navegador, no lado do servidor, para desenvolvimento de aplicações web.",
         "category": "nodejs"
     },
     {
@@ -50,7 +50,7 @@
         "urlImage": "https://raw.githubusercontent.com/Elian-beep/assets-online/main/portifolio/image-bootstrap.png",
         "color": "#6f44a4",
         "habilitys": "Flexibilidade em instalação da ferramenta | Fácil modificação pela documentação",
-        "desc": "Bootstrap é um framework de design de interface de usuário (UI) de código aberto, que permite o desenvolvimento rápido e fácil de interfaces web responsivas e visualmente atraentes.",
+        "desc": "Bootstrap é um framework de design de UI que permite o desenvolvimento rápido de interfaces web responsivas e atraentes.",
         "category": "bootstrap"
     }
 ]

@@ -26,7 +26,7 @@ export const ButtonFillterS = styled.button`
 
     ${ ({  isFilter }) => isFilter && css`
         background-color: ${colors.blue_dark};
-        box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.7);
+        /* box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.7); */
         transform: translateY(3px);
         border: none;
     ` }
