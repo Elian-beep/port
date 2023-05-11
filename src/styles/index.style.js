@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-tap-highlight-color: transparent;
   }
   
   body {
@@ -119,4 +120,18 @@ export const H3SD = styled.h2`
     font-weight: 600;
     font-size: 16pt;
     color: ${props => props.color};
+`;
+
+export const H4SD = styled.h3`
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16 pt;
+    color: ${props => props.color};
+`;
+
+export const DivBar = styled.div`
+  width: 90px;
+  align-self: center;
+  height: 1px;
+  color: ${props => props.color};
 `;

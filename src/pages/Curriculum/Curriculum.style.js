@@ -22,3 +22,9 @@ export const SpanInfoS = styled.span`
     font-size: 18px;
     color: ${colors.white};
 `;
+
+export const DivXPS = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+`;
