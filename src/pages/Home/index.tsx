@@ -1,5 +1,5 @@
-import { DivContentS, H2SD, PSD } from 'styles/index.style';
-import { DivInsignias, DivRotateS, DivSkills, ImgProfileS } from './Home.style';
+import { DivContentS, DivRotateS, H2SD, PSD } from 'styles/index.style';
+import { DivInsignias, DivSkills, ImgProfileS } from './Home.style';
 import profileImage from 'assets/profile.svg';
 import Insignia from 'components/Insignia';
 import SkillsCarrousel from 'components/SkillsCarrousel';

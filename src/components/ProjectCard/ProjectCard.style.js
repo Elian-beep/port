@@ -28,7 +28,7 @@ export const DivCardimageS = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    `;
+`;
 
 export const ImgProjectCardS = styled.img`
     border-radius: 5px;

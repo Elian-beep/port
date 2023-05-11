@@ -41,12 +41,33 @@ export const DivContentS = styled.div`
     gap: 2rem;
 `;
 
+export const DivRotateS = styled.div`
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media (min-width: ${screens.laptop}) {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+`;
+
+export const DivRotateXYS = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (min-width: ${screens.laptop}) {
+    flex-direction: column;
+  }
+`;
+
 export const DivCenterVert = styled.div`
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 `;
 
 export const DivCenterHor = styled.div`
