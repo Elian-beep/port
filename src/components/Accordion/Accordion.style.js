@@ -24,12 +24,11 @@ export const SpanIconWrapper = styled.span`
 `;
 
 export const DivAccordionBodyWrapper = styled.div`
-overflow: hidden;
-display: flex;
-flex-direction: column;
-gap: 1em;
-padding-top: 1em;
-transition: max-height 0.5s ease-in-out;
-max-height: ${ props =>
-  props.isOpen ? "1000px" : "0"};
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* padding-top: 1em; */
+    transition: max-height 0.5s ease-in-out;
+    max-height: ${ props => props.isOpen ? "1000px" : "0"};
 `;

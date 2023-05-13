@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { DivCenterVert, H2SD, DivRotateS, DivContentS, PSD, H3SD, H4SD, DivBar } from 'styles/index.style';
+import { DivCenterVert, H2SD, DivRotateS, DivContentS, PSD, H3SD, H4SD, DivBar, PLeftSD } from 'styles/index.style';
 import profileImage from 'assets/profile.jpg';
 import { DivXPS, ImgProfileS, SpanInfoS } from './Curriculum.style';
 import { colors } from 'styles/vars.style';
@@ -64,25 +64,25 @@ export default function Curriculum() {
                         <PSD>
                             Uma aplicação web ainda em desenvolvimento que exibirá
                             publicamente os dados das amostras coletadas pelo CESIT UEA
-                            <PSD>Período: 08/2022 - Atualmente</PSD>
                         </PSD>
+                        <PSD>Período: 08/2022 - Atualmente</PSD>
                     </DivXPS>
                     <DivXPS>
                         <H4SD color={colors.white}>Este Portifólio</H4SD>
-                        <PSD>
+                        <PLeftSD>
                             Esta aplicação foi totalmente desenvolvido por mim para organizar
                             minhas melhores aplicações e exibir suas funcionalidades, pondo em prática
                             minhas habilidades Full Stack
-                            <PSD>Período: 05/2023 - Atualmente</PSD>
-                        </PSD>
+                        </PLeftSD>
+                        <PSD>Período: 05/2023 - Atualmente</PSD>
                     </DivXPS>
                     <DivXPS>
                         <H4SD color={colors.white}>Monitoria UEA CESIT</H4SD>
                         <PSD>
                             Auxílio ao professor da disciplina Linguagem de Programação na Universidade
                             do Estado do Amazonas
-                            <PSD>Período: 05/2022 - 07/2022</PSD>
                         </PSD>
+                        <PSD>Período: 05/2022 - 07/2022</PSD>
                     </DivXPS>
                 </Accordion>
                 <Accordion title='Formação Acadêmica'>

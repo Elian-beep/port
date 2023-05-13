@@ -99,7 +99,11 @@ export const PSD = styled.p`
   text-align: justify;
 `;
 
-
+export const PLeftSD = styled.p`
+  font-size: 18px;
+  color: ${colors.white};
+  text-align: left;
+`;
 
 export const H1SD = styled.h1`
   font-style: normal;
