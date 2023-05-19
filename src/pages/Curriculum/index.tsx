@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { DivCenterVert, H2SD, DivRotateS, DivContentS, PSD, H3SD, H4SD, DivBar, PLeftSD } from 'styles/index.style';
+import { DivCenterVert, H2SD, DivRotateS, DivContentS, PSD, H3SD, H4SD, PLeftSD } from 'styles/index.style';
 import profileImage from 'assets/profile.jpg';
 import { DivXPS, ImgProfileS, SpanInfoS } from './Curriculum.style';
 import { colors } from 'styles/vars.style';
@@ -61,10 +61,10 @@ export default function Curriculum() {
                 <Accordion title='Experiência'>
                     <DivXPS>
                         <H4SD color={colors.white}>Xiloteca Web</H4SD>
-                        <PSD>
+                        <PLeftSD>
                             Uma aplicação web ainda em desenvolvimento que exibirá
                             publicamente os dados das amostras coletadas pelo CESIT UEA
-                        </PSD>
+                        </PLeftSD>
                         <PSD>Período: 08/2022 - Atualmente</PSD>
                     </DivXPS>
                     <DivXPS>
@@ -78,15 +78,34 @@ export default function Curriculum() {
                     </DivXPS>
                     <DivXPS>
                         <H4SD color={colors.white}>Monitoria UEA CESIT</H4SD>
-                        <PSD>
+                        <PLeftSD>
                             Auxílio ao professor da disciplina Linguagem de Programação na Universidade
                             do Estado do Amazonas
-                        </PSD>
+                        </PLeftSD>
                         <PSD>Período: 05/2022 - 07/2022</PSD>
                     </DivXPS>
                 </Accordion>
                 <Accordion title='Formação Acadêmica'>
-                    <PSD>conteudo</PSD>
+                    <DivXPS>
+                        <H4SD color={colors.white}>Universidade do Estado do Amazonas</H4SD>
+                        <PLeftSD>
+                            Bacharelado em Ciência da Computação
+                        </PLeftSD>
+                        <PLeftSD>
+                            Local: Itacoatiara - Amazonas
+                        </PLeftSD>
+                        <PSD>Período: 08/2019 - Atualmente</PSD>
+                    </DivXPS>
+                    <DivXPS>
+                        <H4SD color={colors.white}>Instituo Federal de Educação, Ciência e Tecnologia</H4SD>
+                        <PLeftSD>
+                            Curso Técnico integrado em Informática
+                        </PLeftSD>
+                        <PLeftSD>
+                            Local: Parintins - Amazonas
+                        </PLeftSD>
+                        <PSD>Período: 02/2016 - 11/2018</PSD>
+                    </DivXPS>
                 </Accordion>
             </div>
         </DivContentS>

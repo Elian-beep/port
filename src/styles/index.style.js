@@ -101,7 +101,7 @@ export const PSD = styled.p`
 
 export const PLeftSD = styled.p`
   font-size: 18px;
-  color: ${colors.white};
+  color: ${colors.white_gray};
   text-align: left;
 `;
 
@@ -131,11 +131,4 @@ export const H4SD = styled.h3`
     font-weight: 400;
     font-size: 16 pt;
     color: ${props => props.color};
-`;
-
-export const DivBar = styled.div`
-  width: 90px;
-  align-self: center;
-  height: 1px;
-  color: ${props => props.color};
 `;

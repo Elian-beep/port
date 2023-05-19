@@ -1,6 +1,7 @@
 export const colors = {
     black: "#0D0D0D", //cor de fundo para destacar elementos importantes
     white: "#FAFAFA", //cor de textos p 
+    white_gray: "#d0d0d0",
     gray_dark: "#333333", //fundo secundário, bordas e divisões de seções
     gray_medium: "#555555", //fundo de conteúdos secundários, menus e botões
     gray_light: "#AAAAAA", //textos e conteúdos secundários, como descrições e informações adicionais
