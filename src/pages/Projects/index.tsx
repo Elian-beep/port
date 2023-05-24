@@ -3,7 +3,7 @@ import skills from 'data/skills.json';
 import inProject from 'services/inProjects';
 import { IProject } from 'interfaces/iProject';
 import { useEffect, useState } from 'react';
-import { ButtonFillterS, DivBtnfillter, DivContentFillter } from './Projects.style';
+import { ButtonFillterS, DivBtnfillter, DivCardsS, DivContentFillter } from './Projects.style';
 import { colors } from 'styles/vars.style';
 import { ISkill } from 'interfaces/iSkill';
 import { ProjectCard } from 'components/ProjectCard';
@@ -44,14 +44,9 @@ export default function Projects() {
                     ))}
                 </DivBtnfillter>
             </DivContentFillter>
-            <div style={{
-                display: 'flex',
-                gap: '1.1em',
-                justifyContent: 'center',
-                flexWrap: 'wrap'
-            }}>
+            <DivCardsS>
                 <ProjectCard projects={listProjects} />
-            </div>
+            </DivCardsS>
 
 
         </DivContentS>

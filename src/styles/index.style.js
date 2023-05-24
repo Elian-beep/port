@@ -19,8 +19,15 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const MainContainer = styled.main`
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const MainContent = styled.section`
+   @media (min-width: ${screens.desktop}) {
+    max-width: 1600px;
+    align-self: center;
+  }
 `;
 
 export const DivContainerSD = styled.div`

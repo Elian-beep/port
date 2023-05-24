@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { DivCenterVert, H2SD, DivRotateS, DivContentS, PSD, H3SD, H4SD, PLeftSD } from 'styles/index.style';
 import profileImage from 'assets/profile.jpg';
-import { DivXPS, ImgProfileS, SpanInfoS } from './Curriculum.style';
+import { DivAccordionContainer, DivAccordions, DivXPS, ImgProfileS, SpanInfoS } from './Curriculum.style';
 import { colors } from 'styles/vars.style';
 import { SpanTecsS } from 'components/ProjectCard/ProjectCard.style';
 import { Accordion } from 'components/Accordion';
@@ -57,57 +57,61 @@ export default function Curriculum() {
                 Alura.
             </PSD>
 
-            <div>
-                <Accordion title='Experiência'>
-                    <DivXPS>
-                        <H4SD color={colors.white}>Xiloteca Web</H4SD>
-                        <PLeftSD>
-                            Uma aplicação web ainda em desenvolvimento que exibirá
-                            publicamente os dados das amostras coletadas pelo CESIT UEA
-                        </PLeftSD>
-                        <PSD>Período: 08/2022 - Atualmente</PSD>
-                    </DivXPS>
-                    <DivXPS>
-                        <H4SD color={colors.white}>Este Portifólio</H4SD>
-                        <PLeftSD>
-                            Esta aplicação foi totalmente desenvolvido por mim para organizar
-                            minhas melhores aplicações e exibir suas funcionalidades, pondo em prática
-                            minhas habilidades Full Stack
-                        </PLeftSD>
-                        <PSD>Período: 05/2023 - Atualmente</PSD>
-                    </DivXPS>
-                    <DivXPS>
-                        <H4SD color={colors.white}>Monitoria UEA CESIT</H4SD>
-                        <PLeftSD>
-                            Auxílio ao professor da disciplina Linguagem de Programação na Universidade
-                            do Estado do Amazonas
-                        </PLeftSD>
-                        <PSD>Período: 05/2022 - 07/2022</PSD>
-                    </DivXPS>
-                </Accordion>
-                <Accordion title='Formação Acadêmica'>
-                    <DivXPS>
-                        <H4SD color={colors.white}>Universidade do Estado do Amazonas</H4SD>
-                        <PLeftSD>
-                            Bacharelado em Ciência da Computação
-                        </PLeftSD>
-                        <PLeftSD>
-                            Local: Itacoatiara - Amazonas
-                        </PLeftSD>
-                        <PSD>Período: 08/2019 - Atualmente</PSD>
-                    </DivXPS>
-                    <DivXPS>
-                        <H4SD color={colors.white}>Instituo Federal de Educação, Ciência e Tecnologia</H4SD>
-                        <PLeftSD>
-                            Curso Técnico integrado em Informática
-                        </PLeftSD>
-                        <PLeftSD>
-                            Local: Parintins - Amazonas
-                        </PLeftSD>
-                        <PSD>Período: 02/2016 - 11/2018</PSD>
-                    </DivXPS>
-                </Accordion>
-            </div>
+            <DivAccordions>
+                <DivAccordionContainer>
+                    <Accordion title='Experiência'>
+                        <DivXPS>
+                            <H4SD color={colors.white}>Xiloteca Web</H4SD>
+                            <PLeftSD>
+                                Uma aplicação web ainda em desenvolvimento que exibirá
+                                publicamente os dados das amostras coletadas pelo CESIT UEA
+                            </PLeftSD>
+                            <PSD>Período: 08/2022 - Atualmente</PSD>
+                        </DivXPS>
+                        <DivXPS>
+                            <H4SD color={colors.white}>Este Portifólio</H4SD>
+                            <PLeftSD>
+                                Esta aplicação foi totalmente desenvolvido por mim para organizar
+                                minhas melhores aplicações e exibir suas funcionalidades, pondo em prática
+                                minhas habilidades Full Stack
+                            </PLeftSD>
+                            <PSD>Período: 05/2023 - Atualmente</PSD>
+                        </DivXPS>
+                        <DivXPS>
+                            <H4SD color={colors.white}>Monitoria UEA CESIT</H4SD>
+                            <PLeftSD>
+                                Auxílio ao professor da disciplina Linguagem de Programação na Universidade
+                                do Estado do Amazonas
+                            </PLeftSD>
+                            <PSD>Período: 05/2022 - 07/2022</PSD>
+                        </DivXPS>
+                    </Accordion>
+                </DivAccordionContainer>
+                <DivAccordionContainer>
+                    <Accordion title='Formação Acadêmica'>
+                        <DivXPS>
+                            <H4SD color={colors.white}>Universidade do Estado do Amazonas</H4SD>
+                            <PLeftSD>
+                                Bacharelado em Ciência da Computação
+                            </PLeftSD>
+                            <PLeftSD>
+                                Local: Itacoatiara - Amazonas
+                            </PLeftSD>
+                            <PSD>Período: 08/2019 - Atualmente</PSD>
+                        </DivXPS>
+                        <DivXPS>
+                            <H4SD color={colors.white}>Instituo Federal de Educação, Ciência e Tecnologia</H4SD>
+                            <PLeftSD>
+                                Curso Técnico integrado em Informática
+                            </PLeftSD>
+                            <PLeftSD>
+                                Local: Parintins - Amazonas
+                            </PLeftSD>
+                            <PSD>Período: 02/2016 - 11/2018</PSD>
+                        </DivXPS>
+                    </Accordion>
+                </DivAccordionContainer>
+            </DivAccordions>
         </DivContentS>
     );
 }

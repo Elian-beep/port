@@ -5,11 +5,6 @@ export const DivListAreaS = styled.div`
     overflow-x: auto;
     padding-left:30px;
 
-    /* &::-webkit-scrollbar, ::-webkit-scrollbar-thumb{
-      background: none;
-      width: 0;
-    } */
-
     &::-webkit-scrollbar{
         background: none;
     }
@@ -20,6 +15,10 @@ export const DivListAreaS = styled.div`
 
     @media (min-width: ${screens.laptop}) {
         overflow-x: hidden;
+    }
+
+    @media (min-width: ${screens.desktop}) {
+        overflow-x: auto;
     }
 `;
 
@@ -47,6 +46,10 @@ export const DivButtonLeft = styled.div`
     @media (min-width: ${screens.laptop}) {
         display: flex;
     }
+
+    @media (min-width: ${screens.desktop}) {
+        display: none;
+    }
 `;
 
 export const DivButtonRight = styled.div`
@@ -67,6 +70,10 @@ export const DivButtonRight = styled.div`
 
     @media (min-width: ${screens.laptop}) {
         display: flex;
+    }
+
+    @media (min-width: ${screens.desktop}) {
+        display: none;
     }
 `;
 

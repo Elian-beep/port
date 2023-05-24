@@ -23,6 +23,25 @@ export const SpanInfoS = styled.span`
     color: ${colors.white};
 `;
 
+export const DivAccordions = styled.div`
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+
+    @media (min-width: ${screens.laptop}) {
+        flex-direction: row;
+    }
+`;
+
+export const DivAccordionContainer = styled.div`
+    width: 100%;
+
+    @media (min-width: ${screens.laptop}) {
+        width: 50%;
+    }
+`;
+
 export const DivXPS = styled.div`
     display: flex;
     flex-direction: column;

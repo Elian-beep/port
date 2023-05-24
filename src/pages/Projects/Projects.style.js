@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { colors } from 'styles/vars.style';
+import { colors, screens } from 'styles/vars.style';
 
 export const DivContentFillter = styled.div`
     display: flex;
@@ -34,6 +34,16 @@ export const ButtonFillterS = styled.button`
     & :hover{
         background-color: ${colors.purple_dark};
     }
+`;
 
+export const DivCardsS = styled.div`
+    display: flex;
+    gap: 1.1em;
+    justify-content: center;
+    flex-wrap: wrap;
 
+    @media (min-width: ${screens.laptop}) {
+        justify-content: space-evenly;
+        gap: 1.5em;
+    }
 `;
