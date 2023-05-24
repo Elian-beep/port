@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { DivCenterVert, H2SD, DivRotateS, DivContentS, PSD, H3SD, H4SD, PLeftSD } from 'styles/index.style';
+import { DivCenterVert, H2SD, DivRotateS, DivContentS, PSD, H3SD } from 'styles/index.style';
 import profileImage from 'assets/profile.jpg';
 import { DivAccordionContainer, DivAccordions, ImgProfileS, SpanInfoS } from './Curriculum.style';
 import { colors } from 'styles/vars.style';

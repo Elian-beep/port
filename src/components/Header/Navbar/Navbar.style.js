@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { colors, screens } from 'styles/vars.style'
 
 export const NavBar = styled.nav`
@@ -9,6 +9,25 @@ export const NavBar = styled.nav`
     color: ${colors.gray_light};
     font-size: 16pt;
     cursor: pointer;
+    transition: color .3s ease-in;
+
+    ${ ({ clickedId }) => clickedId && css`
+        & #${clickedId}{
+            color: ${colors.white};
+        }
+
+        & #${clickedId}::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            left: 50%;
+            height: 2px;
+            background-color: #fff;
+            transform: translateX(-50%);
+            transition: width 0.3s ease-in-out;
+        }
+    `}
     
     @media (min-width: ${screens.laptop}) { 
 
@@ -27,7 +46,7 @@ export const NavBar = styled.nav`
             width: 0;
             left: 50%;
             height: 2px;
-            background-color: #fff;
+            background-color: ${colors.gray_light};
             transform: translateX(-50%);
             transition: width 0.3s ease-in-out;
         }
@@ -35,7 +54,5 @@ export const NavBar = styled.nav`
         & div:hover::before{
             width: 100%;
         }
-
-
     }
 `;
