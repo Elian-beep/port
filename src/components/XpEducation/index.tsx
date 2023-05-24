@@ -1,17 +1,17 @@
 import { H4SD, PLeftSD, PSD } from "styles/index.style";
 import { colors } from "styles/vars.style";
-import { DivXPS } from "./XpProject.style";
-import { IExperience } from "interfaces/IExperiences";
+import { DivXPS } from "./XpEducation.style";
+import { IEducation } from "interfaces/IEducation";
 
 interface Props {
-    xp: IExperience
+    xp: IEducation
 }
 
-export function XpProject(props: Props) {
+export function XpEducation(props: Props) {
     return (
         <DivXPS>
             <H4SD color={colors.white}>{props.xp.title}</H4SD>
-            <PLeftSD>{props.xp.desc}</PLeftSD>
+            <PLeftSD>{props.xp.desc} | {props.xp.local}</PLeftSD>
             <PSD>Período: {props.xp.period}</PSD>
         </DivXPS>
     );

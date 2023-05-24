@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "title": "Xiltoeca WEB",
+        "period": "08/2022 - Atualmente",
+        "desc": "Uma aplicação web ainda em desenvolvimento que exibirá publicamente os dados das amostras coletadas pelo CESIT UEA"
+    },
+    {
+        "_id": 2,
+        "title": "Estagiário Bemol Digital",
+        "period": "03/2023 - Atualmente",
+        "desc": "Estagiário no setor de Tecnologia auxiliando no desenvolvimento de aplicações digitais que compõem o Universo Bemol Varejo"
+    },
+    {
+        "_id": 3,
+        "title": "Este Portifólio",
+        "period": "05/2023 - Atualmente",
+        "desc": "Esta aplicação foi totalmente desenvolvido por mim para organizar minhas melhores aplicações e exibir suas funcionalidades, pondo em prática minhas habilidades Full Stack"
+    },
+    {
+        "_id": 4,
+        "title": "Monitoria UEA CESIT",
+        "period": "05/2023 - 07/2022",
+        "desc": "Auxílio ao professor da disciplina Linguagem de Programação na Universidade do Estado do Amazonas"
+    }
+]
